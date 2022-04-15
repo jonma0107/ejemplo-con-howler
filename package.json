@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "rm -rf dist && vite build",
     "preview": "vite preview",
-    "serve": "npm run build",
+    "serve": "pnpm run build",
     "deploy": "gh-pages -d ."
   },
   "devDependencies": {
