@@ -4,7 +4,7 @@ const base = mode === "production" ? "/" + path.basename(process.cwd()) + "/" : 
 
 module.exports = {
   root: "src",
-  base: "/howler/",
+  base: "/ejemplo-con-howler/",
   mode,
   publicDir: "../public",
   build: {
