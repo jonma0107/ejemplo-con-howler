@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "rm -rf dist && vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d ."
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "@stylelint/postcss-css-in-js": "^0.37.2",
