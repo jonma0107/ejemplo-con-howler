@@ -1,7 +1,7 @@
 # Como usarlo
 El uso es muy simple, por cada archivo que carguemos tenemos que crear un nuevo objeto (aunque después puede ser un archivo que contiene varias pistas) y le tenemos que pasar como argumento un objeto con todos los parámetros del audio. Este es un ejemplo del código básico para reproducir un bucle de audio:
 
-```html
+```javascript
 var sonido = new Howl({
   urls: ['sonido.mp3', 'sonido.ogg', 'sonido.wav'],
   autoplay: true,   // true = se autoejecuta
@@ -14,7 +14,7 @@ var sonido = new Howl({
 ```
 En el siguiente supuesto usaríamos dos sonidos de audio, de distinto formato por mantener la compatibilidad con todos los navegadores y lo dividiremos en varias pistas (aplauso, disparo y sirena).
 
-```html
+```javascript
 var sonido = new Howl({
   urls: ['sonido.mp3', 'sonido.ogg'],
   sprite: {
